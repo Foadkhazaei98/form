@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="header">GeeksforGeeks Survey Form</h1>
+    <div class="container">
+        <form class="form1" action="/review.html">
+            <label for="fname">Name</label>
+            <input class="frm-input" type="text" id="fname" name="fname" placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input class="frm-input" type="email" id="email" name="email" placeholder="Enter your Email">
+
+            <label for="age">Age</label>
+            <input class="frm-input" type="number" id="age" name="age" placeholder="Enter your age">
+
+            <p class="combo-hdr">Wich option best describes you?</p>
+            <select name="combo" id="combo" class="combo-box">
+                <option value="developer">Developer</option>
+                <option value="client">Client</option>
+            </select>
+
+            <fieldset class="radio-hdr">
+                <legend>Would you recommed GeeksforGeeks to a friend?</legend>
+
+                <input type="radio" id="yes" name="question" value="yes">
+                <label for="yes">Yes</label><br>
+
+                <input type="radio" id="yes" name="question" value="no">
+                <label for="no">No</label><br>
+
+                <input type="radio" id="maybe" name="question" value="maybe">
+                <label for="maybe">Maybe</label><br>
+
+
+
+
+            </fieldset>
+<div>
+<button type="submit" class="submit-but">Submit</button>
+
+
+</div>
+    </div>
+    </form>
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
